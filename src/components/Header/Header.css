@@ -1,0 +1,16 @@
+.header-top-btn {
+  background-color: goldenrod;
+  color: rgb(247, 240, 240);
+  padding: 5px;
+  border-radius: 5px;
+  width: 150px;
+  height: 40px;
+  margin-top: 50px;
+  text-align: center;
+  font-weight: bold;
+}
+
+.green-clr {
+  color: green;
+  font-weight: bold;
+}
