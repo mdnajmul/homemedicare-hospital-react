@@ -45,7 +45,9 @@ const Header = () => {
       {/* nav bar */}
       <Navbar sticky="top" bg="primary" variant="dark" expand="lg">
         <Container fluid>
-          <Navbar.Brand href="#">HOMEMEDICARE & HOSPITAL</Navbar.Brand>
+          <Navbar.Brand href="#" className="mx-5">
+            HOMEMEDICARE & HOSPITAL
+          </Navbar.Brand>
           <Navbar.Toggle aria-controls="navbarScroll" />
           <Navbar.Collapse id="navbarScroll">
             <Nav
@@ -53,23 +55,56 @@ const Header = () => {
               style={{ maxHeight: "100px" }}
               navbarScroll
             >
-              <Nav.Link href="#action1">Home</Nav.Link>
-              <Nav.Link href="#action2">About Us</Nav.Link>
-              <Nav.Link href="#action3">Our Services</Nav.Link>
-              <Nav.Link href="#action3">Doctors</Nav.Link>
-              <Nav.Link href="#action3">Contact</Nav.Link>
-              <NavLink
-                className="text-decoration-none me-3 header-top-btn"
-                to="/login"
+              <Nav.Link
+                href="#action1"
+                className="ms-5 text-white fw-bold hover"
+                activeClassName="active"
               >
-                Sign In
-              </NavLink>
-              <NavLink
-                className="text-decoration-none header-top-btn"
-                to="/register"
+                Home
+              </Nav.Link>
+              <Nav.Link
+                href="#action2"
+                className="ms-5 text-white fw-bold hover"
+                activeClassName="active"
               >
-                Sign Up
-              </NavLink>
+                About Us
+              </Nav.Link>
+              <Nav.Link
+                href="#action3"
+                className="ms-5 text-white fw-bold hover"
+                activeClassName="active"
+              >
+                Our Services
+              </Nav.Link>
+              <Nav.Link
+                href="#action3"
+                className="ms-5 text-white fw-bold hover"
+                activeClassName="active"
+              >
+                Doctors
+              </Nav.Link>
+              <Nav.Link
+                href="#action3"
+                className="ms-5 text-white fw-bold hover"
+                activeClassName="active"
+              >
+                Contact
+              </Nav.Link>
+              <div className="my-auto">
+                <NavLink
+                  className="text-decoration-none me-3 header-top-btn"
+                  style={{ marginLeft: "120px" }}
+                  to="/login"
+                >
+                  Sign In
+                </NavLink>
+                <NavLink
+                  className="text-decoration-none header-top-btn"
+                  to="/register"
+                >
+                  Sign Up
+                </NavLink>
+              </div>
             </Nav>
           </Navbar.Collapse>
         </Container>
