@@ -34,11 +34,6 @@ const Header = () => {
               <p className="fw-bold">7AM - 11PM (Everyday)</p>
             </span>
           </div>
-          {/* <div className="col-lg-4 col-sm-6 mt-5">
-          <span>
-            
-          </span>
-        </div> */}
         </div>
       </section>
 
