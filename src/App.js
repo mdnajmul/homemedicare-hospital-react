@@ -3,6 +3,8 @@ import Header from "./components/Header/Header";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import Slider from "./components/Slider/Slider";
 import TopService from "./components/TopService/TopService";
+import Login from "./components/Login/Login";
+import BottomNav from "./components/BottomNav/BottomNav";
 
 function App() {
   return (
@@ -10,8 +12,19 @@ function App() {
       <Switch>
         <Route exact path="/">
           <Header></Header>
+          <BottomNav></BottomNav>
           <Slider></Slider>
           <TopService></TopService>
+        </Route>
+        <Route exact path="/home">
+          <Header></Header>
+          <BottomNav></BottomNav>
+          <Slider></Slider>
+          <TopService></TopService>
+        </Route>
+        <Route path="/login">
+          <Header></Header>
+          <Login></Login>
         </Route>
       </Switch>
     </Router>
