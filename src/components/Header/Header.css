@@ -1,5 +1,5 @@
 .header-top-btn {
-  background-color: rgb(13, 196, 53);
+  background-color: rgb(241, 20, 123);
   color: rgb(247, 240, 240);
   padding: 10px;
   border-radius: 5px;
@@ -11,14 +11,14 @@
 }
 
 .hover:hover {
-  background-color: rgb(241, 20, 123);
+  background-color: rgb(13, 196, 53);
   color: white !important;
   padding: 5px;
   border-radius: 5px;
 }
 .active {
-  background-color: rgb(241, 20, 123);
+  background-color: rgb(13, 196, 53);
   color: white !important;
-  padding: 10px 15px;
+  padding: 10px 10px;
   border-radius: 5px;
 }

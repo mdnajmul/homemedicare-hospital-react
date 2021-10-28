@@ -3,9 +3,21 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faEnvelope, faUser } from "@fortawesome/free-regular-svg-icons";
 import { faKey, faPhoneAlt } from "@fortawesome/free-solid-svg-icons";
 import { faGoogle } from "@fortawesome/free-brands-svg-icons";
-import { Link } from "react-router-dom";
+import { Link, useLocation, useHistory } from "react-router-dom";
+import useAuth from "../../hooks/useAuth";
 
 const Register = () => {
+  const { signInUsingGoogle } = useAuth();
+  const location = useLocation();
+  const history = useHistory();
+  const redirect_uri = location.state?.from || "/";
+
+  const handleGoogleSignIn = () => {
+    signInUsingGoogle().then((result) => {
+      history.push(redirect_uri);
+    });
+  };
+
   return (
     <div className="login-field">
       <div className="container">
@@ -76,7 +88,10 @@ const Register = () => {
                 </div>
                 <div className="row mt-3">
                   <div className="col-lg-6 col-md-6 col-sm-12 col-12">
-                    <button className="btn px-5 py-2 google-btn">
+                    <button
+                      onClick={handleGoogleSignIn}
+                      className="btn px-5 py-2 google-btn"
+                    >
                       <FontAwesomeIcon
                         icon={faGoogle}
                         className="me-2 google-icon-clr"

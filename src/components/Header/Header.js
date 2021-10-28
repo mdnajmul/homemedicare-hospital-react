@@ -9,7 +9,7 @@ const Header = () => {
   return (
     <Navbar fixed="top" bg="primary" variant="dark" expand="lg">
       <Container fluid>
-        <Navbar.Brand href="#" className="mx-5">
+        <Navbar.Brand href="/" className="mx-5">
           HOMEMEDICARE & HOSPITAL
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="navbarScroll" />
