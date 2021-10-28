@@ -4,6 +4,7 @@ import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import Slider from "./components/Slider/Slider";
 import TopService from "./components/TopService/TopService";
 import Login from "./components/Login/Login";
+import Register from "./components/Register/Register";
 import BottomNav from "./components/BottomNav/BottomNav";
 
 function App() {
@@ -25,6 +26,10 @@ function App() {
         <Route path="/login">
           <Header></Header>
           <Login></Login>
+        </Route>
+        <Route path="/register">
+          <Header></Header>
+          <Register></Register>
         </Route>
       </Switch>
     </Router>
