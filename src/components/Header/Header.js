@@ -1,9 +1,11 @@
 import React from "react";
 import { Container, Nav, Navbar } from "react-bootstrap";
 import { NavLink } from "react-router-dom";
+import useAuth from "../../hooks/useAuth";
 import "./Header.css";
 
 const Header = () => {
+  const { user, logOut } = useAuth();
   return (
     <Navbar fixed="top" bg="primary" variant="dark" expand="lg">
       <Container fluid>
@@ -52,21 +54,37 @@ const Header = () => {
             >
               Contact
             </NavLink>
-            <div className="my-auto">
-              <NavLink
-                className="text-decoration-none me-3 header-top-btn"
-                style={{ marginLeft: "120px" }}
-                to="/login"
-              >
-                Sign In
-              </NavLink>
-              <NavLink
-                className="text-decoration-none header-top-btn"
-                to="/register"
-              >
-                Sign Up
-              </NavLink>
-            </div>
+            {user.displayName && (
+              <span className="ms-5 text-white fw-bold mt-1">
+                Hello ! {user.displayName}
+              </span>
+            )}
+            {user.displayName ? (
+              <div className="my-auto">
+                <button
+                  className="text-decoration-none ms-3 logout-btn"
+                  onClick={logOut}
+                >
+                  Sign Out
+                </button>
+              </div>
+            ) : (
+              <div className="my-auto">
+                <NavLink
+                  className="text-decoration-none me-3 header-top-btn"
+                  style={{ marginLeft: "120px" }}
+                  to="/login"
+                >
+                  Sign In
+                </NavLink>
+                <NavLink
+                  className="text-decoration-none header-top-btn"
+                  to="/register"
+                >
+                  Sign Up
+                </NavLink>
+              </div>
+            )}
           </Nav>
         </Navbar.Collapse>
       </Container>

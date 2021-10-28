@@ -31,6 +31,15 @@
   border-radius: 5px;
 }
 
+.logout-btn {
+  background-color: rgb(241, 13, 13) !important;
+  color: white !important;
+  font-weight: bold !important;
+  padding: 10px 30px !important;
+  border: none;
+  border-radius: 5px;
+}
+
 .or-txt {
   font-family: Raleway-Regular;
   font-size: 16px;

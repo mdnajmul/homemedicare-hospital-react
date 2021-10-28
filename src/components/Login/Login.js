@@ -1,12 +1,24 @@
 import React from "react";
+import { Link, useLocation, useHistory } from "react-router-dom";
+import useAuth from "../../hooks/useAuth";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faEnvelope } from "@fortawesome/free-regular-svg-icons";
 import { faKey } from "@fortawesome/free-solid-svg-icons";
 import { faGoogle } from "@fortawesome/free-brands-svg-icons";
 import "./Login.css";
-import { Link } from "react-router-dom";
 
 const Login = () => {
+  const { signInUsingGoogle } = useAuth();
+  const location = useLocation();
+  const history = useHistory();
+  const redirect_uri = location.state?.from || "/";
+
+  const handleGoogleSignIn = () => {
+    signInUsingGoogle().then((result) => {
+      history.push(redirect_uri);
+    });
+  };
+
   return (
     <div className="login-field">
       <div className="container">
@@ -51,7 +63,10 @@ const Login = () => {
                 </div>
                 <div className="row mt-3">
                   <div className="col-lg-6 col-md-6 col-sm-12 col-12">
-                    <button className="btn px-5 py-2 google-btn">
+                    <button
+                      onClick={handleGoogleSignIn}
+                      className="btn px-5 py-2 google-btn"
+                    >
                       <FontAwesomeIcon
                         icon={faGoogle}
                         className="me-2 google-icon-clr"
