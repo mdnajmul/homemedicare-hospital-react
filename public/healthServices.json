@@ -1,0 +1,130 @@
+[
+  {
+    "id": 1,
+    "name": "Accident & Emergency",
+    "img": "https://i.ibb.co/DkcCHDh/Accident-Emergency.jpg",
+    "descImg": "https://i.ibb.co/2d1sq0h/hospital-emergency.jpg",
+    "shortDesc": "Homemedicare & Hospital Accident & Emergency Centre provides multidisciplinary emergency support 24 hours a day",
+    "description": "Homemedicare and Hospital Accident & Emergency Centre provides multidisciplinary emergency support 24 hours a day, 7 days a week with state-of-the-art facilities and expert trauma team, providing ventilator and life support equipped ambulances, stroke management, life support, cardiac support and trauma life support protocols with emergency and triage beds, and immediate access to diagnostic, medical and surgical specialties. Accident & Emergency Centre has started dedicated Chest Pain Observation Unit (CPOU) for emergency management of patients with chest pain but at low risk of heart attack, aiming to improve the efficiency of care of low-risk patients without unnecessary admissions. Nine Emergency Codes are followed within the hospital, denoting different emergency situations for efficient management.Accident & Emergency Centre, which deals with all kinds of emergencies under one roof 24 hours a day, 7 days a week. The Centre is managed by UK-qualified Consultant, experienced in Emergency Medicine. The Centre has eight dedicated emergency beds, as well as four triage beds. In case of any emergency, one call is enough to avail our ambulance pick-up round-the-clock. Our fleet of ambulance is well-equipped and manned by trained emergency technicians and paramedics. We have Toyota and Mercedes-Benz ICU ambulances with life support equipments including ventilators. Moreover, being near the international and domestic airports, we can commute with emergency patients to-and-fro very fast from the airport to the hospital premises at times of need. Homemedicare Hospital Hospital Dhaka is also the official partner of Civil Aviation Authority of the Government of Bangladesh in Disaster Management Protocol; hence, we participate in regular Fire Drill Workshops"
+  },
+  {
+    "id": 2,
+    "name": "Anaesthesia",
+    "img": "https://i.ibb.co/jZyk4y8/Anaesthesia.jpg",
+    "descImg": "https://i.ibb.co/fMjRtDh/anaesthesia.jpg",
+    "shortDesc": "Anaesthesia is a state of partial or total loss of sensation produced by drugs administered for medical or surgical purposes",
+    "description": "Department of Anaesthesia of Homemedicare and Hospital offers a wide range of cutting-edge anaesthetic, perioperative and pain management services to patients of all ages for a broad spectrum of surgical, medical and diagnostic procedures. Our aim is to provide superlative comprehensive anaesthesia care throughout the perioperative period using the latest cutting-edge anaesthesia technique, aided by state-of-the-art equipments, latest anaesthetic agents, along with the most modern monitoring devices and supervised by a team of top class highly qualified anaesthesiologists of the country. Our dynamic, trained, skilled and experienced anaesthesiologists ensure that you receive an anaesthesia plan tailored to your needs, providing maximum patient safety and comfort.Our vigilant care does not start or stop with the often-challenging anaesthesia management during the actual surgical or medical procedures; we also work with experts of other associated fields in order to bring about a total care consisting of preoperative evaluation, perioperative management and a very efficient postanaesthetic observation/management system. In fact, we can take some pride for being very successful in running all the components of the above mentiones care with utmost watchfulness. Our Post Anaesthesia Care Unit is adequately staffed, equipped and can act as a hold area for transferring patients to any other critical care area (ICU/CCU/HDU), if needed."
+  },
+  {
+    "id": 3,
+    "name": "Bronchoscopy",
+    "img": "https://i.ibb.co/NCjkY8G/Bronchoscopy.jpg",
+    "descImg": "https://i.ibb.co/jHVhncW/bronchoscopy.jpg",
+    "shortDesc": "Bronchoscopy is a procedure that allows the doctor to examine inside a patient’s throat, larynx, trachea, and airway.",
+    "description": "Homemedicare and Hospital Bronchoscopy Unit offers the latest procedure and monitoring equipment for bronchoscopy procedure, which provides maximum accuracy, quality and safety for patients. Bronchoscopy is performed utilizing the services of expert doctors and medical team, as well as anaesthesiologists, to provide intravenous sedation to make the procedure as comfortable as possible. The Unit provides patients and their families with the highest level of comfort, privacy and convenience, before, during and after the examination. After the procedure, the patient can rest for a few hours in our Day Care Unit, located opposite the Bronchoscopy Unit.During bronchoscopy, the patient is asked to lie down on his/her back. Local anaesthesia is given to relax the throat muscles. The bronchoscope is then passed through the patient’s mouth or nose, through the windpipe (trachea), and then into the lungs. Until the anaesthesia begins to work, patient may feel fluid running down the back of the throat and have the need to cough or gag. Once the anaesthesia takes effect, patient may have sensations of pressure or mild tugging as the tube moves through the windpipe (trachea). Please note that there is NO risk of suffocation. If the patient coughs during the exam, more anaesthesia will be given."
+  },
+  {
+    "id": 4,
+    "name": "Cardiology",
+    "img": "https://i.ibb.co/ZX488cQ/cardiology.jpg",
+    "descImg": "https://i.ibb.co/MD2q2dk/cardiology.jpg",
+    "shortDesc": "The Cardiology Department of Homemedicare Hospital has gained reputation for its dynamic and innovation in the diagnosis, investigation and treatment of patients with all forms of heart diseases.",
+    "description": "The Cardiology Department of Homemedicare and Hospital has gained reputation for its dynamic and innovation in the diagnosis, investigation and treatment of patients with all forms of heart diseases, both generally encountered and complex cases. We have a dedicated unit of four full-time Consultants, and a team of junior doctors, nurses, and technicians trained to the highest standard in cardiac assessment. Our specialists diagnose and manage full range of heart conditions, and we are fully equipped with state-of-the-art facilities and complete range of services – from cardiac investigations to Interventional Cardiology procedures in ultramodern Catheterization Lab (Cath Lab). Cardio-pulmonary rehabilitation program is offered to patients through our Physical Medicine & Rehabilitation Centre. The hospital offers a multidisciplinary in-patient program, and also has complete Coronary Care Unit and Cardiothoracic ICU for critical cardiac patients. For emergency patients, we have 24-hour Accident & Emergency Centre and specialized team for stabilization and treatment of the patient.The Department generally treats cardiac conditions related to hypertension, aortic disease, arrhythmias, atrial fibrillation, cardiomyopathy, high cholesterol, congenital heart defects, coronary artery disease, myocardial infarction, heart failure, heart murmurs, heart valve diseases, other co-morbid conditions, etc."
+  },
+  {
+    "id": 5,
+    "name": "Cardiothoracic & Vascular Surgery",
+    "img": "https://i.ibb.co/ngb814t/Cardiothoracic-Vascular-Surgery.jpg",
+    "descImg": "https://i.ibb.co/jw00tP0/vascular-sergery.jpg",
+    "shortDesc": "Department of Cardiothoracic & Vascular Surgery is dedicated to the diagnosis and surgical treatment of cardiac, thoracic and vascular diseases.",
+    "description": "Department of Cardiothoracic & Vascular Surgery is dedicated to the diagnosis and surgical treatment of cardiac, thoracic and vascular diseases. The department takes pride in its excellence and pioneering firsts that have made it one of the top cardiothoracic and vascular programs in the country. Our department carries out variety of surgeries, from repair of congenital heart defects in infants to coronary bypass surgeries in octogenarians. Our multidisciplinary team consists of highly qualified surgeons, anesthetists, technicians, perfusionists and nurses. The department is well-backed by modern Cardiothoracic Anaesthesia services, state-of-the-art multipurpose Operation Theatre (having almost zero infection rate), and fully equipped Coronary Care Unit and Cardiothoracic ICU (Critical Care Units) for critical patients. The hospital also provides cardio-pulmonary rehabilitation program through its Physical Medicine & Rehabilitation Centre. For emergency patients, we have 24-hour Accident & Emergency Centre and specialized team for stabilization and treatment of the patient."
+  },
+  {
+    "id": 6,
+    "name": "Critical Care Unit (CCU)",
+    "img": "https://i.ibb.co/2sckzJF/critical-care-uni.jpg",
+    "descImg": "https://i.ibb.co/nB5kp2M/ccu.jpg",
+    "shortDesc": "The role of the Critical Care services is vital and crucial to a tertiary care hospital.",
+    "description": "The role of the Critical Care services is vital and crucial to a tertiary care hospital, as it contributes immensely to survival of acutely and critically ill patients, who would otherwise not survive. The Critical Care units at a tertiary care hospital represent the apex of technical advancements in hospital medicine.The Critical Care Centre at Homemedicare Hospital integrate many specialties and diverse technologies, and are designed and managed based on the fact that methodical organization of Critical Care services influence important overall outcome measures, such as mortality, length of stay, infection rates and overall resource utilization. This means that a lot of emphasis is also placed on areas like nurses’ training, standardizing care through clinical pathways, identification of ethical and economic issues pertaining to Critical Care, managing the in-hospital environment, infection control, and end of life care."
+  },
+  {
+    "id": 7,
+    "name": "Dental & Maxillofacial",
+    "img": "https://i.ibb.co/KwcvB9P/Dental-Maxillofacial-Surgery.jpg",
+    "descImg": "https://i.ibb.co/1LGY7kx/dental-surgery.jpg",
+    "shortDesc": "Department of Dental & Maxillofacial Surgery of Homemedicare Hospital offers full scope of the dental specialty.",
+    "description": "Department of Dental & Maxillofacial Surgery of Homemedicare Hospital offers full scope of the dental specialty, including general dentistry and specialized services in oral & maxillofacial surgery, orthodontics and restorative dentistry (endodontics and prosthodontics). Our aim is to deliver oral health care of the highest standard to our patients through experienced dental surgeons and modern technology. The department provides diagnosis, management and surgical treatment of defects and injuries related to the function and aesthetics of the teeth, gums and jaws. It also provides excellent surgical service for all sorts of maxillofacial surgery & disease."
+  },
+  {
+    "id": 8,
+    "name": "Neurology",
+    "img": "https://i.ibb.co/SwkzXRd/Department-of-Neurology.jpg",
+    "descImg": "https://i.ibb.co/dj3qHk6/neurology.jpg",
+    "shortDesc": "Department of Neurology of Homemedicare Hospital provides comprehensive consultative services, diagnostic testing and treatment for a broad spectrum of neurological conditions.",
+    "description": "Department of Neurology of Homemedicare Hospital provides comprehensive consultative services, diagnostic testing and treatment for a broad spectrum of neurological conditions, including diseases of the brain, spinal cord, peripheral nerves and muscles. Homemedicare Hospital is the only hospital in the country to be providing advanced and comprehensive Neurology & Neurosurgery facilities under one roof. The Neurology Department has experienced American Board Certified Neurologist and also the only qualified epilepsy specialist of the country. The department uses the latest technology and facilities, and is staffed by an experienced team of neurologists, nurses and technologists, who are committed to patient care. Neuro Rehabilitation services are provided for our patients in association with Physical Medicine & Rehabilitation Centre."
+  },
+  {
+    "id": 9,
+    "name": "Diagnostic & Interventional Radiology",
+    "img": "https://i.ibb.co/wCmqPVQ/Diagnostic-Interventional-Radiology1.jpg",
+    "descImg": "https://i.ibb.co/ZGt0bKX/radiology.jpg",
+    "shortDesc": "Diagnostic & Interventional Radiology Department of Homemedicare Hospital offers state-of-the-art diagnostic imaging services, as well as interventional radiology procedures.",
+    "description": "The department houses the latest digital imaging technologies designed to provide comprehensive services coupled with outstanding patient care and service. A team of highly trained and board certified radiologists, certified technologists and staff provide the highest level of personalized care to each and every patient. All reports are evaluated and supervised by our post-graduate radiology doctors, ensuring accurate test reports for patients. Homemedicare Hospital Hospital Dhaka is one of the only hospital in Bangladesh to be providing interventional radiology services, which uses imaging in combination with minimally invasive procedures. We have the leading interventional radiologists and facilities in performing these interventional radiology procedures.The department makes use of both film and latest digital technology in radiography and fluoroscopic applications. Images are archived on picture archiving and communication system (PACS), which is a computerized means of acquiring, storing, transmitting, and displaying images digitally. Through this system, images are easily retrieved and recorded on a CD for optimum efficiency and portability. Thus, patients are provided re,ports in both film or CD formats, after supervision by a post-graduate doctor."
+  },
+  {
+    "id": 10,
+    "name": "Dialysis",
+    "img": "https://i.ibb.co/Hpxk4mc/Dialysis.jpg",
+    "descImg": "https://i.ibb.co/jw1kWPt/dialysis.jpg",
+    "shortDesc": "Dialysis is primarily used as renal replacement therapy to provide an artificial replacement for lost kidney function due to renal failure.",
+    "description": "Dialysis may be used for very sick patients who have suddenly but temporarily, lost their kidney function (acute renal failure) or for quite stable patients who have permanently lost their kidney function (stage 5 chronic kidney disease).For patients with stage 5 or End-Stage Kidney Disease (ESKD), the decline in kidney function occurs over a period of months to years until a level is reached at which treatment is needed for survival. The best available treatment for ESKD is a kidney transplant; however, some patients are not good candidates for a transplant due to medical or other reasons, some cannot receive a transplant because of the short supply of donor kidneys, and others simply decide that a transplant is not the best option for them. As a result, most patients with ESKD must rely on dialysis to replace the water and waste removal functions of the healthy kidneys; though dialysis is an imperfect treatment to replace kidney function because it does not correct the endocrine functions of the kidney.Homemedicare Hospital Dialysis Unit of the hospital, providing both hemodialysis and peritoneal dialysis (the two primary types of dialysis). With 10 single hemodialysis machines, the unit is providing dialysis services for its patients on an out-patient and in-patient basis. Homemedicare Hospital Dialysis Unit has portable machines for dialysis of patients at their bed side, as well as dedicated machines for patients who have infectious diseases like Hepatitis B, Hepatitis C and others. Our dialyser machines are disinfected with sodium chloride and auto rinse cleaning system after completion of each dialysis cycle. Continuous Renal Replacement Therapy (CRRT) is practiced at bed side for patients who have very low diastolic blood pressure (even less than 60 mm Hg). Before the procedure at Homemedicare Hospital Dialysis Centre, patients are screened for infectious disease like Hepatitis B, Hepatitis C or HIV. If diagnosed positive, dialysis machines specific for infection positive patients are used.Homemedicare Hospital Dialysis Unit is open from 7 am to 11 pm every day of the week. With high level of experience and skill, the medical and nursing staff keeps the dialysis patients under close observation and monitoring. The unit and its patients are directly supervised and followed-up by our highly experienced Nephrology Consultants."
+  },
+  {
+    "id": 11,
+    "name": "Diabetology & Endocrinology",
+    "img": "https://i.ibb.co/k4NJtg5/Endocrinology-Diabetology.jpg",
+    "descImg": "https://i.ibb.co/SK4sr3S/Endocrinology-Diabetology.jpg",
+    "shortDesc": "The Department of Diabetology & Endocrinology of Homemedicare Hospital has gained reputation as a leading centre in clinical endocrinology.",
+    "description": "The department offers comprehensive diagnosis and management for a wide range of hormonal and metabolic disorders. Under the supervision of experienced Consultant Dr. Abdul Mannan Sarker, who is one of the few endocrinologists of the country, the department provides team-based services by working in close collaboration with specialists in allied disciplines. The department is also ably supported by Lab Medicine Department in providing a wide array of biochemical investigations and hormone assays.The Department provides consultation services through highly qualified and experienced Diabetology & Endocrinology Consultant, who carefully evaluates each patient. After diagnosing patient’s condition, our Consultant discusses available treatment options and recommends the most effective treatment."
+  },
+  {
+    "id": 12,
+    "name": "Endoscopy/Colonoscopy",
+    "img": "https://i.ibb.co/khjGLfQ/Endoscopy-Colonoscopy.jpg",
+    "descImg": "https://i.ibb.co/XZrz9HV/Endoscopy-Colonoscopy.jpg",
+    "shortDesc": "Endoscopy is a broad term used to describe the inspection of the inside of the body using a flexible or rigid instrument called an endoscope.",
+    "description": "Endoscopy is a broad term used to describe the inspection of the inside of the body using a flexible or rigid instrument called an endoscope, with a camera and light at one end and a viewing monitor or eyepiece at the other. The endoscope is usually introduced through a natural opening, such as the mouth or anus. Images of the inside of the patient’s body can be seen on a screen; the whole endoscopy is recorded so that doctors can check it again. An endoscopy is a non-invasive medical procedure used for investigation or diagnosis, biopsies and foreign object retrieval, without the need for surgery. Using special tools during endoscopy also allows the doctor to treat certain problems in the patient’s organ system.Homemedicare Hospital Endoscopy/Colonoscopy Unit offers many types of Gastrointestinal Endoscopy, The Unit is furnished with the latest procedure and monitoring equipment for endoscopy procedures, which provides maximum accuracy, quality and safety for patients.Our procedures are performed utilizing the services of expert doctors and medical team, as well as anaesthesiologists to provide intravenous sedation to make the procedure as comfortable as possible. The Endoscopy Unit provides patients and their families with the highest level of comfort, privacy and convenience, before, during and after examinations. After the procedure, the patient can rest for a few hours in our Day Care Unit, located opposite the Endoscopy Unit."
+  },
+  {
+    "id": 13,
+    "name": "Gastroenterology & Hepatology",
+    "img": "https://i.ibb.co/7NbSxqJ/Gastroenterology-Hepatology.jpg",
+    "descImg": "https://i.ibb.co/tZvzJRg/gastroenterology.jpg",
+    "shortDesc": "Department of Gastroenterology & Hepatology is devoted to the clinical care of patients with gastrointestinal and liver disorders.",
+    "description": "The department is home to excellent patient care, and our specialists employ the most advanced diagnostic and therapeutic endoscopy services to ensure the best outcomes for each patient. Working closely with a dedicated staff that includes doctors, technologists, nurses, dietitians and more, our care is unsurpassed with the kind of quality and compassion you can expect from a leader in healthcare.he department manages a variety of gastrointestinal and liver disorders, including peptic ulcer disease, gastro-oesophageal reflux disease, gastrointestinal bleeding, functional gastrointestinal disorders, inflammatory bowel disease, pancreatico-biliary diseases, acute and chronic liver disease, as well as gastrointestinal and liver malignancies.Homemedicare Hospital the only JCI accredited hospital in Bangladesh is proud to present a brand new endoscopy technology in the form of a small capsule. This tiny device has four laterally oriented cameras and 16 independently controlled LEDs that provide a crystal clear 360º panoramic image of the mucosa and ensure a 32% higher diagnostic yield than compared to traditional endoscopies."
+  },
+  {
+    "id": 14,
+    "name": "Neurosurgery",
+    "img": "https://i.ibb.co/48mzZM9/Neurosurgery1.jpg",
+    "descImg": "https://i.ibb.co/tQYYgPs/neurosurgery.jpg",
+    "shortDesc": "Neurosurgery is the surgical specialty concerned with diagnosis, treatment and rehabilitation of patients with disorders that affect the nervous system, including the brain, spinal column, spinal cord, peripheral nerves, and extra-cranial cerebrovascular system.",
+    "description": "Department of Neurosurgery of Homemedicare Hospital employs a multidisciplinary approach to providing comprehensive neurosurgical services, utilizing state-of-the-art equipments and facilities. Our team consists of expert neurosurgeons, neuro nurses and technicians. We also have skilled doctors from other departments for support with Neurosurgery subspecialties. The department has already performed over two thousand highly demanding, successful neurosurgeries since 2005.Homemedicare Neurosurgery Department offers surgery and management of a variety of neurological conditions in both adults and children; the most common include: Traumatic brain & spine injuries, Brain haemorrhage, Brain & spine tumours and infections, Cerebrovascular disorders like aneurysm, arteriovenous malformations (AVM), vascular malformations, ischemic disorders, and stroke, Epilepsy, Movement disorders like Parkinson’s disease, dystonia, tremor, and spasticity, Nerve disorders like nerve injury & tumours, and entrapment syndromes, Spine and peripheral nerve disorders."
+  },
+  {
+    "id": 15,
+    "name": "Orthopaedics",
+    "img": "https://i.ibb.co/mqtvKbJ/Orthopadics.jpg",
+    "descImg": "https://i.ibb.co/mHDvbjy/orthopadics.jpg",
+    "shortDesc": "Homemedicare Hospital, in all probability, has the best orthopaedic department in the country, serving to provide 360º care as a Bone & Joint Centre.",
+    "description": "The Department of Orthopaedics offers out-patient consultation services and procedures. It is well supported by fully equipped operation theatre (OT), intensive care units for pre- and post- operative care, as well as rehabilitation services in Physical Medicine & Rehabilitation Centre. The state-of-the-art OT is equipped with the latest fracture tables and imaging facilities including a C-arm image intensifier. The hospital is also equipped with CT scan (64 slice), MRI Scan (1.5 tesla), and X-ray for prompt screening facilities. The theatre is scrupulously maintained such that the infection rate is always near zero.We take care of: Any kind of Fracture & Soft tissue injury, Spine & Back Care, All kind of Hip & Knee Problems, Pediatric Orthopaedics, Shoulder Surgery, Sports injury, Old age with Bone Problems."
+  },
+  {
+    "id": 16,
+    "name": "Urology",
+    "img": "https://i.ibb.co/NFgKkJ7/urology-evercare-hospita-dhaka.jpg",
+    "descImg": "https://i.ibb.co/vdp7gxW/urology.jpg",
+    "shortDesc": "The Department of Urology at Homemedicare Hospital is dedicated to providing state-of-the-art medical and surgical care for all specialties of male and female urology.",
+    "description": "The Department of Urology at Homemedicare Hospital is dedicated to providing state-of-the-art medical and surgical care for all specialties of male and female urology (both adult and paediatric), as well as male infertility problems. Each year, our highly experienced urologists treat hundreds of patients, providing expert diagnosis, care and surgeries for complete range of urological conditions. We offer patients confidential evaluations, treatment and follow-up care with state-of-the-art resources, like ultra modern operation theatres (OT), dedicated Kidney Transplant Unit, Lithotripsy Unit, as well as modern diagnostic facilities like urodynamic studies. Our kidney transplant program has a 100% success rate with nearly zero infection. The department has become a national referral surgical centre.The department provides consultation services through highly qualified and experienced Urology Consultant who carefully evaluate each patient. After diagnosing the patient’s condition, our Consultant discusses available treatment options and recommends the most effective treatment."
+  }
+]
