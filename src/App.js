@@ -9,6 +9,7 @@ import NotFound from "./components/NotFound/NotFound";
 import BottomNav from "./components/BottomNav/BottomNav";
 import AuthProvider from "./context/AuthProvider";
 import PrivateRoute from "./components/PrivateRoute/PrivateRoute";
+import HomeServices from "./components/HomeServices/HomeServices";
 
 function App() {
   return (
@@ -21,12 +22,14 @@ function App() {
               <BottomNav></BottomNav>
               <Slider></Slider>
               <TopService></TopService>
+              <HomeServices></HomeServices>
             </Route>
             <Route exact path="/home">
               <Header></Header>
               <BottomNav></BottomNav>
               <Slider></Slider>
               <TopService></TopService>
+              <HomeServices></HomeServices>
             </Route>
             <Route path="/login">
               <Header></Header>

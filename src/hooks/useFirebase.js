@@ -13,6 +13,15 @@ initializeAuthentication();
 
 const useFirebase = () => {
   const [user, setUser] = useState({});
+  const [services, setServices] = useState([]);
+
+  useEffect(() => {
+    fetch("./healthServices.json")
+      .then((res) => res.json())
+      .then((data) => {
+        setServices(data);
+      });
+  }, []);
 
   const auth = getAuth();
   const googleProvider = new GoogleAuthProvider();
@@ -45,6 +54,7 @@ const useFirebase = () => {
     signInUsingGoogle,
     signInUsingGitHub,
     logOut,
+    services,
   };
 };
 
