@@ -11,6 +11,7 @@ import AuthProvider from "./context/AuthProvider";
 import PrivateRoute from "./components/PrivateRoute/PrivateRoute";
 import HomeServices from "./components/HomeServices/HomeServices";
 import ServiceDetail from "./components/ServiceDetail/ServiceDetail";
+import AllServices from "./components/AllServices/AllServices";
 
 function App() {
   return (
@@ -45,6 +46,7 @@ function App() {
             </PrivateRoute>
             <PrivateRoute path="/services">
               <Header></Header>
+              <AllServices></AllServices>
             </PrivateRoute>
             <PrivateRoute path="/doctors">
               <Header></Header>
