@@ -14,12 +14,21 @@ initializeAuthentication();
 const useFirebase = () => {
   const [user, setUser] = useState({});
   const [services, setServices] = useState([]);
+  const [doctors, setDoctors] = useState([]);
 
   useEffect(() => {
     fetch("./healthServices.json")
       .then((res) => res.json())
       .then((data) => {
         setServices(data);
+      });
+  }, []);
+
+  useEffect(() => {
+    fetch("./doctors.json")
+      .then((res) => res.json())
+      .then((data) => {
+        setDoctors(data);
       });
   }, []);
 
@@ -55,6 +64,7 @@ const useFirebase = () => {
     signInUsingGitHub,
     logOut,
     services,
+    doctors,
   };
 };
 

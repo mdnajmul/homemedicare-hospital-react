@@ -12,6 +12,7 @@ import PrivateRoute from "./components/PrivateRoute/PrivateRoute";
 import HomeServices from "./components/HomeServices/HomeServices";
 import ServiceDetail from "./components/ServiceDetail/ServiceDetail";
 import AllServices from "./components/AllServices/AllServices";
+import HomePageDoctors from "./components/HomePageDoctors/HomePageDoctors";
 
 function App() {
   return (
@@ -25,6 +26,7 @@ function App() {
               <Slider></Slider>
               <TopService></TopService>
               <HomeServices></HomeServices>
+              <HomePageDoctors></HomePageDoctors>
             </Route>
             <Route exact path="/home">
               <Header></Header>
@@ -32,6 +34,7 @@ function App() {
               <Slider></Slider>
               <TopService></TopService>
               <HomeServices></HomeServices>
+              <HomePageDoctors></HomePageDoctors>
             </Route>
             <Route path="/login">
               <Header></Header>
