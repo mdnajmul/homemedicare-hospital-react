@@ -13,6 +13,7 @@ import HomeServices from "./components/HomeServices/HomeServices";
 import ServiceDetail from "./components/ServiceDetail/ServiceDetail";
 import AllServices from "./components/AllServices/AllServices";
 import HomePageDoctors from "./components/HomePageDoctors/HomePageDoctors";
+import AllDoctors from "./components/AllDoctors/AllDoctors";
 
 function App() {
   return (
@@ -53,6 +54,7 @@ function App() {
             </PrivateRoute>
             <PrivateRoute path="/doctors">
               <Header></Header>
+              <AllDoctors></AllDoctors>
             </PrivateRoute>
             <PrivateRoute path="/contact">
               <Header></Header>
