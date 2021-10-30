@@ -1,0 +1,39 @@
+ul,
+ol {
+  list-style: none;
+  color: white;
+  padding: 0px;
+  margin: 0px;
+}
+.font-arrow {
+  margin-right: 8px;
+  color: #ffc600;
+}
+.footer-top {
+  background-color: #07294d;
+}
+.footer-hover-clr:hover {
+  color: #ffc600;
+}
+.footer-bottom {
+  background-color: #021d3a;
+}
+.font-icon {
+  cursor: pointer;
+  color: white;
+}
+.fb-icon:hover {
+  color: rgba(8, 8, 214, 0.938);
+}
+.yt-icon:hover {
+  color: red;
+}
+.tw-icon:hover {
+  color: rgb(106, 194, 248);
+}
+.in-icon:hover {
+  color: #3f729b;
+}
+.ln-icon:hover {
+  color: #0e76a8;
+}

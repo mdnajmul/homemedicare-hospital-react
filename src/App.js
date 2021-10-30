@@ -16,6 +16,7 @@ import HomePageDoctors from "./components/HomePageDoctors/HomePageDoctors";
 import AllDoctors from "./components/AllDoctors/AllDoctors";
 import AboutUs from "./components/AboutUs/AboutUs";
 import Contact from "./components/Contact/Contact";
+import Footer from "./components/Footer/Footer";
 
 function App() {
   return (
@@ -30,6 +31,7 @@ function App() {
               <TopService></TopService>
               <HomeServices></HomeServices>
               <HomePageDoctors></HomePageDoctors>
+              <Footer></Footer>
             </Route>
             <Route exact path="/home">
               <Header></Header>
@@ -38,38 +40,47 @@ function App() {
               <TopService></TopService>
               <HomeServices></HomeServices>
               <HomePageDoctors></HomePageDoctors>
+              <Footer></Footer>
             </Route>
-            <Route path="/login">
+            <Route exact path="/login">
               <Header></Header>
               <Login></Login>
+              <Footer></Footer>
             </Route>
-            <Route path="/register">
+            <Route exact path="/register">
               <Header></Header>
               <Register></Register>
+              <Footer></Footer>
             </Route>
-            <PrivateRoute path="/aboutus">
+            <PrivateRoute exact path="/aboutus">
               <Header></Header>
               <AboutUs></AboutUs>
+              <Footer></Footer>
             </PrivateRoute>
             <PrivateRoute exact path="/services">
               <Header></Header>
               <AllServices></AllServices>
+              <Footer></Footer>
             </PrivateRoute>
-            <PrivateRoute path="/doctors">
+            <PrivateRoute exact path="/doctors">
               <Header></Header>
               <AllDoctors></AllDoctors>
+              <Footer></Footer>
             </PrivateRoute>
-            <PrivateRoute path="/contact">
+            <PrivateRoute exact path="/contact">
               <Header></Header>
               <Contact></Contact>
+              <Footer></Footer>
             </PrivateRoute>
-            <PrivateRoute path="/servicedetails/:serviceId">
+            <PrivateRoute exact path="/servicedetails/:serviceId">
               <Header></Header>
               <ServiceDetail></ServiceDetail>
+              <Footer></Footer>
             </PrivateRoute>
             <Route path="*">
               <Header></Header>
               <NotFound></NotFound>
+              <Footer></Footer>
             </Route>
           </Switch>
         </Router>
