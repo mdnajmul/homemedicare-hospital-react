@@ -15,6 +15,7 @@ const useFirebase = () => {
   const [user, setUser] = useState({});
   const [services, setServices] = useState([]);
   const [doctors, setDoctors] = useState([]);
+  const [isLoading, setIsLoading] = useState(true);
 
   useEffect(() => {
     fetch("./healthServices.json")
@@ -37,24 +38,32 @@ const useFirebase = () => {
   const githubProvider = new GithubAuthProvider();
 
   const signInUsingGoogle = () => {
+    setIsLoading(true);
     return signInWithPopup(auth, googleProvider);
   };
 
   const signInUsingGitHub = () => {
+    setIsLoading(true);
     return signInWithPopup(auth, githubProvider);
   };
 
   const logOut = () => {
-    signOut(auth).then(() => {
-      setUser({});
-    });
+    setIsLoading(true);
+    signOut(auth)
+      .then(() => {
+        setUser({});
+      })
+      .finally(() => setIsLoading(false));
   };
 
   useEffect(() => {
     onAuthStateChanged(auth, (user) => {
       if (user) {
         setUser(user);
+      } else {
+        setUser({});
       }
+      setIsLoading(false);
     });
   }, []);
 
@@ -65,6 +74,8 @@ const useFirebase = () => {
     logOut,
     services,
     doctors,
+    isLoading,
+    setIsLoading,
   };
 };
 

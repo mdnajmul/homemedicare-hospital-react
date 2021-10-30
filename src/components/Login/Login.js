@@ -9,7 +9,7 @@ import { faGoogle, faGithub } from "@fortawesome/free-brands-svg-icons";
 import "./Login.css";
 
 const Login = () => {
-  const { signInUsingGoogle, signInUsingGitHub } = useAuth();
+  const { signInUsingGoogle, signInUsingGitHub, setIsLoading } = useAuth();
   const location = useLocation();
   const history = useHistory();
   const redirect_uri = location.state?.from || "/";
@@ -28,7 +28,8 @@ const Login = () => {
       })
       .catch((error) => {
         setError(error.message);
-      });
+      })
+      .finally(() => setIsLoading(false));
   };
 
   const handleGitHubSignIn = () => {
@@ -39,7 +40,8 @@ const Login = () => {
       })
       .catch((error) => {
         setError(error.message);
-      });
+      })
+      .finally(() => setIsLoading(false));
   };
 
   const handleEmailChange = (e) => {
@@ -51,6 +53,7 @@ const Login = () => {
   };
 
   const processLogin = (e) => {
+    setIsLoading(true);
     e.preventDefault();
     if (password.length < 6) {
       setError("Password must be at least 6 characters long.");
@@ -63,7 +66,8 @@ const Login = () => {
       })
       .catch((error) => {
         setError(error.message);
-      });
+      })
+      .finally(() => setIsLoading(false));
   };
 
   return (
