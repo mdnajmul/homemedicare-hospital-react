@@ -1,0 +1,98 @@
+[
+  {
+    "id": 1,
+    "img": "https://i.ibb.co/56J1xYN/d-1.jpg",
+    "name": "Prof. Dr. Akm Musa",
+    "department": "Medicine Specialist",
+    "degree": "MBBS,FCPS,MCPS,DTCD,GOLD MEDALIST(MCPS)",
+    "work": "PROFFESSOR AND CHIEF OF DEPARTMENT MEDICINE DEPARTMENT, BARDEM HOSPITAL, DHAKA"
+  },
+  {
+    "id": 2,
+    "img": "https://i.ibb.co/B40W8zY/d-12.jpg",
+    "name": "Prof. Dr. Md Jannatul Islam",
+    "department": "Surgery Specialist",
+    "degree": "MBBS,FCPS,FICS",
+    "work": "PROFFESSOR AND CHIEF OF DEPARTMENT SURGERY DEPARTMENT, BSMMU, DHAKA"
+  },
+  {
+    "id": 3,
+    "img": "https://i.ibb.co/7KLp7X9/d-3.jpg",
+    "name": "Prof. Dr. A K M Fazlul Haque",
+    "department": "Medicine Specialist",
+    "degree": "MBBS,MPH,M.D,FACP",
+    "work": "Prof, Mymensing Medical College"
+  },
+  {
+    "id": 4,
+    "img": "https://i.ibb.co/1KMSzpV/d-4.jpg",
+    "name": "Prof. Dr. Md. Selimuzzaman",
+    "department": "Child Health Specialist",
+    "degree": "MBBS,DCH,MD,DU,FRCP",
+    "work": "Prof. Of Paediatrics & Head Of The Dept, Dhaka Shishu Hospital"
+  },
+  {
+    "id": 5,
+    "img": "https://i.ibb.co/tLwwCRk/d-5.jpg",
+    "name": "Prof. Dr. Akhil Ranjon Biswas",
+    "department": "Heart Specialist",
+    "degree": "MBBS,MD(CARD) FNIC(India) AFACC",
+    "work": "Prof. , National Heart Foundation"
+  },
+  {
+    "id": 6,
+    "img": "https://i.ibb.co/tCd3TVp/d-11.jpg",
+    "name": "Prof. Dr. Md Kabiruzzaman",
+    "department": "Hemato-oncologist & BMT Specialist",
+    "degree": "MBBS, FCPS,IHTC Fellow,BMT",
+    "work": "Professor,Bone Marrow Transplantation Department Of Hematology,Dhaka Medical College"
+  },
+  {
+    "id": 7,
+    "img": "https://i.ibb.co/tZXvX9W/d-2.jpg",
+    "name": "Prof. Shireen Afroz",
+    "department": "Child Health & Kidney Specialist",
+    "degree": "MBBS, FCPS,MD, FRCP",
+    "work": "Prof. Of Paediatric Nephrology, Bangladesh Institute Of Child Health & Dhaka Shishu (Children) Hospital."
+  },
+  {
+    "id": 8,
+    "img": "https://i.ibb.co/JHsRdy1/d-7.jpg",
+    "name": "Prof. Ashok Datta",
+    "department": "Cardiologist Specialist",
+    "degree": "MBBS (DMC), D. Card (DU), FCPS (Cardiology), Cardiology",
+    "work": "National Heart Foundation Hospital"
+  },
+  {
+    "id": 9,
+    "img": "https://i.ibb.co/MfSGFTG/d-6.jpg",
+    "name": "Associate Prof. Dr. Tanjima Parvin",
+    "department": "Obstetrics And Gynaecology",
+    "degree": "MBBS, DGO, FCPS (OBS & GYNAE)",
+    "work": "Dhaka Medical College"
+  },
+  {
+    "id": 10,
+    "img": "https://i.ibb.co/HC32MqB/d-10.jpg",
+    "name": "Prof. Dr. Sabina Hashem",
+    "department": "Medicine Specialist",
+    "degree": "MBBS,MPH,M.D,FACP",
+    "work": "Labaid Hospital & Diagonistics, Dhaka"
+  },
+  {
+    "id": 11,
+    "img": "https://i.ibb.co/zxgZhvp/d-9.jpg",
+    "name": "Dr. Rukhshana Parvin",
+    "department": "General & Female Surgeon",
+    "degree": "MBBS, FCPS (Surgery), Special Training in Plastic Surgery",
+    "work": "Evercare Hospital Dhaka"
+  },
+  {
+    "id": 12,
+    "img": "https://i.ibb.co/9qKh8xQ/d-8.jpg",
+    "name": "Prof. Dr. Arbindo Roy",
+    "department": "Radiologist Specialist",
+    "degree": "MBBS, FCPS, MD (Radiology & Imaging), Radiology",
+    "work": "Anwer Khan Modern Medical College Hospital"
+  }
+]

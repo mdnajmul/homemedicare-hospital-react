@@ -44,7 +44,7 @@ function App() {
             <PrivateRoute path="/aboutus">
               <Header></Header>
             </PrivateRoute>
-            <PrivateRoute path="/services">
+            <PrivateRoute exact path="/services">
               <Header></Header>
               <AllServices></AllServices>
             </PrivateRoute>
