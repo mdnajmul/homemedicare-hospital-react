@@ -14,6 +14,7 @@ import ServiceDetail from "./components/ServiceDetail/ServiceDetail";
 import AllServices from "./components/AllServices/AllServices";
 import HomePageDoctors from "./components/HomePageDoctors/HomePageDoctors";
 import AllDoctors from "./components/AllDoctors/AllDoctors";
+import AboutUs from "./components/AboutUs/AboutUs";
 
 function App() {
   return (
@@ -47,6 +48,7 @@ function App() {
             </Route>
             <PrivateRoute path="/aboutus">
               <Header></Header>
+              <AboutUs></AboutUs>
             </PrivateRoute>
             <PrivateRoute exact path="/services">
               <Header></Header>
