@@ -15,6 +15,7 @@ import AllServices from "./components/AllServices/AllServices";
 import HomePageDoctors from "./components/HomePageDoctors/HomePageDoctors";
 import AllDoctors from "./components/AllDoctors/AllDoctors";
 import AboutUs from "./components/AboutUs/AboutUs";
+import Contact from "./components/Contact/Contact";
 
 function App() {
   return (
@@ -60,6 +61,7 @@ function App() {
             </PrivateRoute>
             <PrivateRoute path="/contact">
               <Header></Header>
+              <Contact></Contact>
             </PrivateRoute>
             <PrivateRoute path="/servicedetails/:serviceId">
               <Header></Header>
