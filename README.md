@@ -2,7 +2,7 @@
 
 ## Project Live Site
 
-- [Go To Here](https://ots-react-najmulovi.netlify.app/).
+- [Go To Here](https://homemedicare-hospital.web.app/).
 
 ## Project Description
 

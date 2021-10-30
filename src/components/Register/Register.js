@@ -12,7 +12,7 @@ import {
 import useAuth from "../../hooks/useAuth";
 
 const Register = () => {
-  const { signInUsingGoogle, signInUsingGitHub } = useAuth();
+  const { signInUsingGoogle, signInUsingGitHub, setIsLoading } = useAuth();
   const location = useLocation();
   const history = useHistory();
   const redirect_uri = location.state?.from || "/";
@@ -33,7 +33,8 @@ const Register = () => {
       })
       .catch((error) => {
         setError(error.message);
-      });
+      })
+      .finally(() => setIsLoading(false));
   };
 
   const handleGitHubSignIn = () => {
@@ -44,7 +45,8 @@ const Register = () => {
       })
       .catch((error) => {
         setError(error.message);
-      });
+      })
+      .finally(() => setIsLoading(false));
   };
 
   const handleNameChange = (e) => {
@@ -64,6 +66,7 @@ const Register = () => {
   };
 
   const updateUserProfile = () => {
+    setIsLoading(true);
     updateProfile(auth.currentUser, {
       displayName: name,
       phoneNumber: phone,
@@ -73,10 +76,12 @@ const Register = () => {
       })
       .catch((error) => {
         setError(error.message);
-      });
+      })
+      .finally(() => setIsLoading(false));
   };
 
   const handleRegistration = (e) => {
+    setIsLoading(false);
     e.preventDefault();
     if (password.length < 6) {
       setError("Password must be at least 6 characters long.");
@@ -90,7 +95,8 @@ const Register = () => {
       })
       .catch((error) => {
         setError(error.message);
-      });
+      })
+      .finally(() => setIsLoading(false));
   };
 
   return (
