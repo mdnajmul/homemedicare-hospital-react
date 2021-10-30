@@ -15,7 +15,7 @@ const Service = (props) => {
         <NavLink
           className="text-decoration-none me-3 header-top-btn"
           style={{ marginLeft: "120px" }}
-          to="/servicedetails"
+          to={`/servicedetails/${id}`}
         >
           Read More
         </NavLink>

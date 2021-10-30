@@ -10,6 +10,7 @@ import BottomNav from "./components/BottomNav/BottomNav";
 import AuthProvider from "./context/AuthProvider";
 import PrivateRoute from "./components/PrivateRoute/PrivateRoute";
 import HomeServices from "./components/HomeServices/HomeServices";
+import ServiceDetail from "./components/ServiceDetail/ServiceDetail";
 
 function App() {
   return (
@@ -50,6 +51,10 @@ function App() {
             </PrivateRoute>
             <PrivateRoute path="/contact">
               <Header></Header>
+            </PrivateRoute>
+            <PrivateRoute path="/servicedetails/:serviceId">
+              <Header></Header>
+              <ServiceDetail></ServiceDetail>
             </PrivateRoute>
             <Route path="*">
               <Header></Header>
